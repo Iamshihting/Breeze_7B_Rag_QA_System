@@ -1,8 +1,10 @@
 # Breeze_Rag_QA_System
 📌 專案簡介
+
 本專案旨在透過 RAG（檢索增強生成） 方法，基於 PDF 文件提供準確的問答服務。使用 LangChain 進行檢索，並透過 Breeze-7B 模型生成回答，幫助使用者高效獲取 PDF 內的相關資訊。
 
 📌 功能特點
+
 1️⃣ PDF 文本處理
 解析 PDF 內容，清理與格式化文本
 透過 RecursiveCharacterTextSplitter 進行文本分割
