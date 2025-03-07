@@ -6,16 +6,13 @@
 📌 功能特點
 
 1️⃣ PDF 文本處理：
-解析 PDF 內容，清理與格式化文本
-透過 RecursiveCharacterTextSplitter 進行文本分割
+解析 PDF 內容，清理與格式化文本，透過 RecursiveCharacterTextSplitter 進行文本分割
 
 2️⃣ 向量資料庫：
-將文本轉換為向量並存入 Chroma 向量資料庫
-使用 HuggingFaceEmbeddings 進行文本嵌入
+將文本轉換為向量並存入 Chroma 向量資料庫，使用 HuggingFaceEmbeddings 進行文本嵌入
 
 3️⃣ RAG 生成回應：
-利用 LangChain 檢索相關文本
-自訂 Prompt，結合 Breeze-7B 生成回答
+利用 LangChain 檢索相關文本，自訂 Prompt，結合 Breeze-7B 生成回答
 
 4️⃣ 問答測試：
 從 Excel 檔案中讀取標準答案，與模型生成的答案進行對比
