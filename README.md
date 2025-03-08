@@ -1,4 +1,4 @@
-## 基於 LangChain、RAG 與 Breeze-7B 實現本地 PDF 問答系統
+# 基於 LangChain、RAG 與 Breeze-7B 實現本地 PDF 問答系統
 ### 📌 專案簡介
 本專案旨在透過 RAG（檢索增強生成） 方法，基於 PDF 文件提供準確的問答服務。使用 LangChain 進行檢索，並透過 Breeze-7B 模型生成回答，幫助使用者高效獲取 PDF 內的相關資訊。
 
